@@ -84,8 +84,8 @@ echo -n "Checking \"cnet204/notes\" directory has been created in your home dire
 check "test -d $HOME/cnet204/notes" "The directory pathname \"$HOME/cnet204/notes\" does NOT exist. Check if you mispelled directory name, or used uppercase letters by mistake. Create the directory \"cnet204/notes\" in your home directory and re-run this checking script"
 
 # Check directory cnet204/tutorials created in home directory
-echo -n "Checking \"cnet204/tutorials\" directory has been created in your home directory: "
-check "test -d $HOME/cnet204/tutorials" "The directory pathname \"$HOME/cnet204/tutorials\" does NOT exist. Check if you mispelled directory name, or used uppercase letters by mistake. Create the directory \"cnet204/tutorials\" in your home directory and re-run this checking script"
+echo -n "Checking \"cnet204/labs\" directory has been created in your home directory: "
+check "test -d $HOME/cnet204/labs" "The directory pathname \"$HOME/cnet204/labs\" does NOT exist. Check if you mispelled directory name, or used uppercase letters by mistake. Create the directory \"cnet204/labs\" in your home directory and re-run this checking script"
 
 # Check directory cnet204/examples created in home directory
 echo -n "Checking \"cnet204/samples\" directory has been created in your home directory: "
